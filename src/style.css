@@ -52,3 +52,7 @@ li {
 .temp {
   color: black;
 }
+p {
+  position: relative;
+  right: -330px;
+}
