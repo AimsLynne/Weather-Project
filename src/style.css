@@ -14,7 +14,7 @@
   );
 }
 
-.temperature {
+.temperature .strong {
   font-size: 35px;
 }
 .description {
@@ -42,13 +42,15 @@ li {
   font-weight: 200;
   list-style: none;
 }
-.temperature .units {
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
+  top: -34px;
 }
 .link {
   position: relative;
   right: -250px;
+  display: block;
 }
 
 .weather-temperature .active {
