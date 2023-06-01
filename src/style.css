@@ -1,7 +1,13 @@
-.card {
-  margin: 20px;
-  padding: 20px;
+.outer-card {
+  max-width: 600px;
+  margin: 20px auto;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.card {
+  padding: 20px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
 }
 
 .temperature {
