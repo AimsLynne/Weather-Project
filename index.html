@@ -20,103 +20,107 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <span class="navbar-toggler-icon"></span>
+      <div class="outer-card">
+        <div class="card">
+          <span class="navbar-toggler-icon"></span>
 
-        <form class="d-flex" id="search-form" role="search">
-          <input
-            class="form-control me-2"
-            id="city-name"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-
-          <div>
-            <button
-              type="button"
-              class="btn btn-success"
-              id="current-location-button"
-            >
-              Current
+          <form class="d-flex" id="search-form" role="search">
+            <input
+              class="form-control me-2"
+              id="city-name"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
             </button>
-          </div>
-        </form>
-        <br />
-        <div class="temperature" id="temperature">
-          <h1>12°C</h1>
-        </div>
-        <div class="dateTime" id="date-time">
-          <h2>Sunday 11:15</h2>
-        </div>
-        <div class="description" id="description">
-          <h3>Cloudy</h3>
-        </div>
-        <div class="place" id="place">
-          <h4>London, United Kingdom</h4>
-        </div>
-        <i class="fa-solid fa-cloud cloudy"></i>
-        <div class="row">
-          <ul>
-            <li>Wind: 2<span class="col-2 wind" id="wind"></span> KPH N</li>
-            <li>
-              Humidity: <span class="col-2 humidity" id="humidity"></span>%
-            </li>
-          </ul>
-        </div>
 
-        <br />
-        <div class="row">
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun sun1">
-              <br />
-              <br />
-              <span class="days">Mon</span>
-              <br />
-              <br />
-              <span class="temp"> 17°/8° </span>
-            </i>
+            <div>
+              <button
+                type="button"
+                class="btn btn-success"
+                id="current-location-button"
+              >
+                Current
+              </button>
+            </div>
+          </form>
+          <br />
+          <div class="temperature" id="temperature">
+            <h1>12°C</h1>
           </div>
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun sun2">
-              <br />
-              <br />
-              <span class="days">Tue</span>
-              <br />
-              <br />
-              <span class="temp"> 13°/5° </span>
-            </i>
+          <div class="dateTime" id="date-time">
+            <h2>Sunday 11:15</h2>
           </div>
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun sun3">
-              <br />
-              <br />
-              <span class="days">Wed</span>
-              <br />
-              <br />
-              <span class="temp"> 15°/6° </span>
-            </i>
+          <div class="description" id="description">
+            <h3>Cloudy</h3>
           </div>
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun sun4">
-              <br />
-              <br />
-              <span class="days">Thur</span>
-              <br />
-              <br />
-              <span class="temp"> 13°/5° </span>
-            </i>
+          <div class="place" id="place">
+            <h4>London, United Kingdom</h4>
           </div>
-          <div class="col">
-            <i class="fa-solid fa-cloud-showers-heavy rain">
-              <br />
-              <br />
-              <span class="days">Fri</span>
-              <br />
-              <br />
-              <span class="temp"> 11°/5° </span>
-            </i>
+          <i class="fa-solid fa-cloud cloudy"></i>
+          <div class="row">
+            <ul>
+              <li>Wind: 2<span class="col-2 wind" id="wind"></span> KPH N</li>
+              <li>
+                Humidity: <span class="col-2 humidity" id="humidity"></span>%
+              </li>
+            </ul>
+          </div>
+
+          <br />
+          <div class="row">
+            <div class="col">
+              <i class="fa-solid fa-cloud-sun sun1">
+                <br />
+                <br />
+                <span class="days">Mon</span>
+                <br />
+                <br />
+                <span class="temp"> 17°/8° </span>
+              </i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-cloud-sun sun2">
+                <br />
+                <br />
+                <span class="days">Tue</span>
+                <br />
+                <br />
+                <span class="temp"> 13°/5° </span>
+              </i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-cloud-sun sun3">
+                <br />
+                <br />
+                <span class="days">Wed</span>
+                <br />
+                <br />
+                <span class="temp"> 15°/6° </span>
+              </i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-cloud-sun sun4">
+                <br />
+                <br />
+                <span class="days">Thur</span>
+                <br />
+                <br />
+                <span class="temp"> 13°/5° </span>
+              </i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-cloud-showers-heavy rain">
+                <br />
+                <br />
+                <span class="days">Fri</span>
+                <br />
+                <br />
+                <span class="temp"> 11°/5° </span>
+              </i>
+            </div>
           </div>
         </div>
       </div>
