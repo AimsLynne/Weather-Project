@@ -15,7 +15,7 @@
 }
 
 .temperature {
-  font-size: 55px;
+  font-size: 35px;
 }
 .description {
   font-size: 18px;
@@ -27,31 +27,35 @@
   font-weight: 500;
 }
 .dateTime {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 500;
 }
 .icon {
-  font-size: 80px;
+  font-size: 150px;
   color: steelblue;
 }
 li {
+  position: relative;
+  right: -600px;
   font: bold;
   font-size: 16px;
   font-weight: 200;
   list-style: none;
 }
+.temperature .units {
+  position: relative;
+  font-size: 16px;
+}
+.link {
+  position: relative;
+  right: -250px;
+}
 
-.row {
-  margin-left: 90px;
-}
-.sun1,
-.sun2,
-.sun3,
-.sun4,
-.rain {
-  color: rgb(114, 14, 11);
-}
-.days,
-.temp {
+.weather-temperature .active {
   color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
