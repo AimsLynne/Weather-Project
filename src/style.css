@@ -60,6 +60,10 @@ h3 {
   font-weight: 500;
 }
 
+h3::first-letter {
+  text-transform: capitalize;
+}
+
 h4 {
   font-size: 18px;
   font-weight: 500;
