@@ -60,3 +60,7 @@ li {
 .active:hover {
   text-decoration: none;
 }
+small {
+  position: relative;
+  right: -155px;
+}
