@@ -44,6 +44,7 @@ function formatDate(date) {
 }
 
 function showWeather(response) {
+  celsiusTemperature = response.data.main.temp;
   document.querySelector("#place").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML =
     Math.round(celsiusTemperature);
@@ -55,8 +56,6 @@ function showWeather(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
-
-  celsiusTemperature = response.data.main.temp;
 
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
