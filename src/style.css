@@ -14,6 +14,18 @@
   );
 }
 
+.btn-success {
+  background-color: transparent;
+  color: #157347;
+  border-color: #157347;
+  margin-left: 5px;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  color: white;
+}
+
 strong {
   font-size: 35px;
 }
