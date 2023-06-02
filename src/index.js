@@ -38,7 +38,7 @@ function formatDate(date) {
   let currentMonth = months[date.getMonth()];
   let currentDate = date.getDate();
 
-  let formattedDate = `${currentDay}, ${currentMonth} ${currentDate}, ${currentYear}`;
+  let formattedDate = `Last updated: ${currentDay}, ${hours}:${minutes}`;
 
   return formattedDate;
 }

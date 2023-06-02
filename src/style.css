@@ -42,8 +42,10 @@ h2 {
   font-size: 18px;
   font-weight: 500;
 }
-.icon {
-  font-size: 150px;
+.weather-temperature img {
+  margin-right: 5px;
+  height: 125px;
+  width: 125px;
 }
 
 li {
@@ -66,7 +68,7 @@ li {
 
 small {
   position: relative;
-  right: -155px;
+  right: -160px;
 }
 
 .weather-forecast {
