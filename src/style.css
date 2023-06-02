@@ -27,7 +27,7 @@
 }
 
 strong {
-  font-size: 35px;
+  font-size: 45px;
 }
 strong .temperature .celsius {
   position: relative;
@@ -56,8 +56,8 @@ h2 {
 }
 .weather-temperature img {
   margin-right: 5px;
-  height: 125px;
-  width: 125px;
+  height: 120px;
+  width: 120px;
 }
 
 li {
