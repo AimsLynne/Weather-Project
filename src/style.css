@@ -14,41 +14,45 @@
   );
 }
 
-.temperature .strong {
+strong {
   font-size: 35px;
 }
-.description {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.place {
-  font-size: 18px;
-  font-weight: 500;
-}
-.dateTime {
-  font-size: 15px;
-  font-weight: 500;
-}
-.icon {
-  font-size: 150px;
-  color: steelblue;
-}
-li {
-  position: relative;
-  right: -600px;
-  font: bold;
-  font-size: 16px;
-  font-weight: 200;
-  list-style: none;
-}
-.weather-temperature .units {
+strong .temperature .celsius {
   position: relative;
   font-size: 16px;
   top: -34px;
 }
-.link {
+
+strong .temperature .fahrenheit {
   position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+weather-temperature .icon {
+  font-size: 150px;
+  position: relative;
+  right: -500px;
+}
+li {
+  position: relative;
+  right: -600px;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
 }
 
 .active {
